@@ -26,7 +26,10 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+             "scripts": [
+    "node_modules/leader-line/leader-line.min.js"
+  ]
           },
           "configurations": {
             "production": {
@@ -83,10 +86,16 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+             "scripts": [
+    "node_modules/leader-line/leader-line.min.js"
+  ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "80a1b1b5-5671-4f76-bbe9-730a48e92a1e"
   }
 }
