@@ -26,3 +26,16 @@ a {
     border-bottom: 1px solid white;
 }
 
+/* Екрани до 768px */
+@media (max-width: 768px) {
+  a {
+    font-size: 18px;
+  }
+}
+
+/* Екрани до 480px */
+@media (max-width: 480px) {
+   a {
+    font-size: 16px;
+  }
+}

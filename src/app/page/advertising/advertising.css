@@ -139,3 +139,54 @@ h2 {
     left: 120%;
   }
 }
+
+@media (max-width: 1050px) {
+
+  .header-box {
+    gap: 20px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-block {
+    width: 48%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.mini-box {
+  width: 100%;
+}
+
+.mini-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer-block p {
+  font-size: 20px;
+}
+
+.logo {
+  display: none;
+
+}
+}
+
+@media (max-width: 600px) {
+
+  .footer-block {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+}
+
+/* Екрани до 480px */
+@media (max-width: 480px) {
+  
+}
