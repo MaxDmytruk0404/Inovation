@@ -28,25 +28,9 @@ export class Map implements OnInit {
   @ViewChild('block16', { static: true }) block16!: ElementRef;
   @ViewChild('block17', { static: true }) block17!: ElementRef;
   @ViewChild('block18', { static: true }) block18!: ElementRef;
-  @ViewChild('block19', { static: true }) block19!: ElementRef;
-  @ViewChild('block20', { static: true }) block20!: ElementRef;
-  @ViewChild('block21', { static: true }) block21!: ElementRef;
-  @ViewChild('block22', { static: true }) block22!: ElementRef;
-  @ViewChild('block23', { static: true }) block23!: ElementRef;
-  @ViewChild('block24', { static: true }) block24!: ElementRef;
-  @ViewChild('block25', { static: true }) block25!: ElementRef;
-  @ViewChild('block26', { static: true }) block26!: ElementRef;
-  @ViewChild('block27', { static: true }) block27!: ElementRef;
-  @ViewChild('block28', { static: true }) block28!: ElementRef;
-  @ViewChild('block29', { static: true }) block29!: ElementRef;
-  @ViewChild('block30', { static: true }) block30!: ElementRef;
-  @ViewChild('block31', { static: true }) block31!: ElementRef;
-  @ViewChild('block32', { static: true }) block32!: ElementRef;
-  @ViewChild('block33', { static: true }) block33!: ElementRef;
-  @ViewChild('block34', { static: true }) block34!: ElementRef;
-  @ViewChild('block35', { static: true }) block35!: ElementRef;
 
-  private lines: any[] = []; // масив для збереження всіх ліній
+
+  private lines: any[] = []; 
 
   ngOnInit() {
     this.lines.push(
@@ -129,86 +113,6 @@ export class Map implements OnInit {
 
     this.lines.push(
       new LeaderLine(this.block17.nativeElement, this.block18.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'right',
-        endSocket: 'left',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block19.nativeElement, this.block20.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'left',
-        endSocket: 'right',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block21.nativeElement, this.block22.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'right',
-        endSocket: 'left',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block23.nativeElement, this.block24.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'left',
-        endSocket: 'right',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block25.nativeElement, this.block26.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'right',
-        endSocket: 'left',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block27.nativeElement, this.block28.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'left',
-        endSocket: 'right',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block29.nativeElement, this.block30.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'right',
-        endSocket: 'left',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block31.nativeElement, this.block32.nativeElement, {
-        color: 'rgba(255, 255, 255, 0.5)',
-        size: 4,
-        endPlug: 'arrow',
-        startSocket: 'left',
-        endSocket: 'right',
-      })
-    );
-
-    this.lines.push(
-      new LeaderLine(this.block33.nativeElement, this.block34.nativeElement, {
         color: 'rgba(255, 255, 255, 0.5)',
         size: 4,
         endPlug: 'arrow',

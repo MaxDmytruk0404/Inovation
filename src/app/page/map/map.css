@@ -2,7 +2,7 @@
   position: relative;
   align-items: center;
   width: 540px;
-  height: 400px;
+  height: 200px;
   background: linear-gradient(135deg, #7e30d2, #f8466d);
   clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
   border: 2px solid #ffbfcd;
@@ -30,7 +30,7 @@ p {
   position: relative;
   align-items: center;
   width: 540px;
-  height: 400px;
+  height: 200px;
   background: linear-gradient(135deg, #f8466d, #7e30d2);
   clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%);
   border: 2px solid #ffbfcd;
