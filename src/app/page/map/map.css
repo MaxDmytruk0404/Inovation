@@ -88,7 +88,6 @@ p {
 
 
 
-/* Екрани до 1024px */
 @media (max-width: 1024px) {
   .custom-block,
   .custom-block-2 {
@@ -105,8 +104,11 @@ p {
   }
 }
 
-/* Екрани до 768px */
 @media (max-width: 768px) {
+
+  .container {
+    padding: 0 10px;
+  }
   .custom-block,
   .custom-block-2 {
     width: 300px;
@@ -124,7 +126,6 @@ p {
   }
 }
 
-/* Екрани до 480px */
 @media (max-width: 480px) {
   .custom-block,
   .custom-block-2 {
